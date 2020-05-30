@@ -1,13 +1,36 @@
-import java.applet.Applet;
+package com.company;
+
+import javax.swing.*;
 import java.awt.*;
 
-public class CantorSetFractal extends Applet {
+public class CantorSetFractal extends JPanel {
 
     //              Name: Marcus J Cameron (mc17)
     //              Date: 2020-03-03
     //              Project Name: Cantor Set
     //              Course: ISC4U1
     //              About: Using recursions to draw a Cantor Set Fractal
+
+    JFrame window = new JFrame();
+
+
+    public static void main(String[] args) {
+
+        new CantorSetFractal();
+    }
+
+
+    public void CantorSetFractal(){
+
+        window.setTitle("Penta Fractal");
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setSize(500, 500);
+        window.setVisible(true);
+        window.add(this);
+
+        paint(this.getGraphics());
+    }
+
 
     // image drawing fr
     public void paint(Graphics g) {
