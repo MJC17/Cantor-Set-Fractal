@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3dbcfbe2-5521-48df-840a-18c877f9bd39" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>100</find>
+      <find>* n</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>n</replace>
+      <replace>* sideLength</replace>
+    </replaceStrings>
+  </component>
+  <component name="ProjectId" id="1cdLKsNDupb0gVIAiYrctnzYy6P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1584143687160" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Cantor Set Fractal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PentaFractalDesgin" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PentaFractalDesgin" />
+      <module name="Cantor Set Fractal" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.PentaFractalDesgin" />
+      <module name="Cantor Set Fractal" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3dbcfbe2-5521-48df-840a-18c877f9bd39" name="Default Changelist" comment="" />
+      <created>1583165083011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583165083011</updated>
+      <workItem from="1590853466936" duration="1609000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="192" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590862228889">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="192" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1590862228889" />
+    <state x="465" y="380" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590862225425">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="465" y="380" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1590862225425" />
+    <state width="1456" height="310" key="GridCell.Tab.0.bottom" timestamp="1590862202651">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1456" height="310" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1590862202651" />
+    <state width="1456" height="310" key="GridCell.Tab.0.center" timestamp="1590862202651">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1456" height="310" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1590862202651" />
+    <state width="1456" height="310" key="GridCell.Tab.0.left" timestamp="1590862202650">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1456" height="310" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1590862202650" />
+    <state width="1456" height="310" key="GridCell.Tab.0.right" timestamp="1590862202651">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1456" height="310" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1590862202651" />
+    <state x="506" y="379" key="SettingsEditor" timestamp="1590853667483">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="506" y="379" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1590853667483" />
+    <state x="609" y="423" key="cloudConfig.SelfSettingsDialog" timestamp="1590853914579">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="609" y="423" key="cloudConfig.SelfSettingsDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1590853914579" />
+    <state x="458" y="490" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1590853928783">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="458" y="490" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1590853928783" />
+  </component>
+</project>
