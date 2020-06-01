@@ -16,33 +16,41 @@ public class PentaFractalDesgin extends JPanel {
 
 
     public static void main(String[] args) {
-        new PentaFractalDesgin();
+
+        JPanel Fractal = new PentaFractalDesgin();
     }
 
 
-    public void PentaFractalDesgin(){
+    PentaFractalDesgin(){
+//
 
-        window.setTitle("Penta Fractal");
+        setFocusable(true);
+
+        // Set up window
+        window.setContentPane(this);
+        window.setTitle(" Penta Fractal Desgin ");
+        window.setSize(600,600 );
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        window.setSize(500, 500);
+        window.setLocationRelativeTo(null);
         window.setVisible(true);
-        window.add(this);
 
-        paint(this.getGraphics());
+        paint();
+        repaint();
+
     }
 
     // image drawing fr
-    public void paint(Graphics g) {
+    public void paint() {
         //  init the first level
         Point point = new Point(300,300);
         CreatePentaFractal(point, 5,300);
     }
-    
+
     public void CreatePentaFractal(Point middelPoint,int numSides,  int sideLength){
 
         Point pentaPoints[] = new Point[numSides + 1];
         int angle = 360 / numSides ;
-        
+
         for (int i = 0; i <= pentaPoints.length - 1; i++){
             double radians = Math.toRadians(angle * i);
             Point point = new Point(((int)(Math.cos(radians) * sideLength) + middelPoint.x),((int)(Math.sin(radians) * sideLength) + middelPoint.y));
@@ -62,7 +70,7 @@ public class PentaFractalDesgin extends JPanel {
         if (n <= 0){
 
         }else {
-            System.out.print(points.length);
+//            System.out.print(points.length);
             Point newPentaPoints[] = new Point[points.length ];
             for (int i = 0; i <= points.length - 2; i++) {
 
@@ -73,13 +81,14 @@ public class PentaFractalDesgin extends JPanel {
 
                 newPentaPoints[i] = new Point((int)(slopeX * 0.75 + points[i].x), ((int)(slopeY * 0.75 + points[i].y)));
 
-                System.out.print(newPentaPoints[i]);
+//                System.out.print(newPentaPoints[i]);
+
             }
-//            int slopeY = points[0].y - points[points.length - 1].y;
-//            int slopeX = points[0].x - points[points.length - 1].x;
-//
-//            newPentaPoints[points.length - 1] = new Point((int)(slopeX * 0.75 + points[points.length - 1].x), ((int)(slopeY * 0.75 + points[points.length - 1].y)));
-            System.out.print("\n\n");
+            int slopeY = points[0].y - points[points.length - 1].y;
+            int slopeX = points[0].x - points[points.length - 1].x;
+
+            newPentaPoints[points.length - 1] = new Point((int)(slopeX * 0.75 + points[points.length - 1].x), ((int)(slopeY * 0.75 + points[points.length - 1].y)));
+//            System.out.print("\n\n");
 
 
             fractal(newPentaPoints, n - 15);
@@ -87,10 +96,12 @@ public class PentaFractalDesgin extends JPanel {
     }
 
     public void drawShape(Point Points[]){
-        Graphics g = getGraphics(); // getting the drawing component
+        Graphics g = this.getGraphics(); // getting the drawing component
+
 
         for (int i = 0; i <= Points.length - 2; i++) {
 
+//                System.out.println(i);
 
                 g.drawLine(Points[i].x, Points[i].y, Points[i + 1].x, Points[i + 1].y);
             }
